@@ -34,3 +34,25 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Rust
+/target
+
+# Tauri
+/src-tauri/target
+
+# SQLite (if you're using it locally)
+*.sqlite
+*.db
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# IDEs and editors
+/.idea
+/.vscode
+*.swp
+*.swo
